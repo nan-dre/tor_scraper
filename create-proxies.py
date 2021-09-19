@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-NAMES = ['bart', 'homer', 'marge', 'lisa']
+NAMES = ['bart', 'homer', 'marge', 'lisa', 'guta', 'salam', 'tzanca', 'mihaita', 'vali', 'adrian']
 # Generate docker-compose.yml.
 #
 with open("docker-compose.yml", "w") as f:

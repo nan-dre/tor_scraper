@@ -1,0 +1,83 @@
+version: '3'
+
+services:
+  tor-bart:
+    container_name: 'tor-bart'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9990:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
+  tor-homer:
+    container_name: 'tor-homer'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9991:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
+  tor-marge:
+    container_name: 'tor-marge'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9992:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
+  tor-lisa:
+    container_name: 'tor-lisa'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9993:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
+  tor-guta:
+    container_name: 'tor-guta'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9994:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
+  tor-salam:
+    container_name: 'tor-salam'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9995:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
+  tor-tzanca:
+    container_name: 'tor-tzanca'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9996:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
+  tor-mihaita:
+    container_name: 'tor-mihaita'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9997:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
+  tor-vali:
+    container_name: 'tor-vali'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9998:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
+  tor-adrian:
+    container_name: 'tor-adrian'
+    image: 'pickapp/tor-proxy:latest'
+    ports:
+      - '9999:8888'
+    environment:
+      - IP_CHANGE_SECONDS=60
+    restart: always
